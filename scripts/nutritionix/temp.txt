@@ -1,0 +1,10 @@
+
+# # curl -XPOST https://api.nutritionix.com/v1_1/search -H 'Content-Type: application/json' -d'{
+# #  "appId":"REDACTED",
+# #  "appKey":"REDACTED",
+# #  "query":"051000234063"
+# # }'
+
+# # curl https://api.nutritionix.com/v1_1/item?upc=051000234063&appId=$REDACTED&appKey=$REDACTED
+
+# # {"old_api_id":null,"item_id":"59b0f0b2aed9df1277deec33","item_name":"Chunky Soup, Chicken Tortilla with Grilled Chicken","leg_loc_id":null,"brand_id":"51db37c1176fe9790a89907e","brand_name":"Campbell's","item_description":null,"updated_at":"2017-09-07T07:09:42.000Z","nf_ingredient_statement":null,"nf_water_grams":null,"nf_calories":140,"nf_calories_from_fat":18,"nf_total_fat":2,"nf_saturated_fat":0.5,"nf_trans_fatty_acid":0,"nf_polyunsaturated_fat":null,"nf_monounsaturated_fat":null,"nf_cholesterol":20,"nf_sodium":690,"nf_total_carbohydrate":22,"nf_dietary_fiber":2,"nf_sugars":2,"nf_protein":9,"nf_vitamin_a_dv":null,"nf_vitamin_c_dv":null,"nf_calcium_dv":2,"nf_iron_dv":6,"nf_refuse_pct":null,"nf_servings_per_container":2,"nf_serving_size_qty":1,"nf_serving_size_unit":"cup","nf_serving_weight_grams":null,"allergen_contains_milk":null,"allergen_contains_eggs":null,"allergen_contains_fish":null,"allergen_contains_shellfish":null,"allergen_contains_tree_nuts":null,"allergen_contains_peanuts":null,"allergen_contains_wheat":null,"allergen_contains_soybeans":null,"allergen_contains_gluten":null,"usda_fields":null}

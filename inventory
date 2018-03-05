@@ -1,0 +1,19 @@
+#!/usr/bin/perl -w
+
+use Inventory;
+
+use UniLang::Agent::Agent;
+use UniLang::Util::Message;
+
+$UNIVERSAL::agent = UniLang::Agent::Agent->new
+  (Name => "Inventory",
+   ReceiveHandler => \&Receive);
+$UNIVERSAL::inventory = Inventory->new();
+
+sub Receive {
+  my %args = @_;
+  $UNIVERSAL::inventory->ProcessMessage
+    (Message => $args{Message});
+}
+
+$UNIVERSAL::inventory->Execute();

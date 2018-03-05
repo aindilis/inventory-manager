@@ -1,0 +1,16 @@
+// borrow various taxonomies here
+
+instanceOf(?MYMONITOR[manufacturer -> WIDECorporation]).
+
+// being connected to a computer via usb by default involves being in the same room
+
+// an exception occurs when using usb over IP
+
+// an exception occurs when using a long cable
+
+// an exception occurs when the computer and the usb device are near
+// an opening between rooms
+
+?ANDREW_PC
+?RECEIPT_SCANNER
+
